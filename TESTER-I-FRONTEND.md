@@ -4,7 +4,7 @@
 
 > "Ni har byggt en e-handel. Ni ändrar prisuträkningen. Allt ser bra ut. Ni pushar. Kunden ringer — alla priser visar 0 kr."
 
-Manuell testning skalar inte. Automatiserade tester fångar **regressioner** — saker som fungerade men som slutar fungera efter en ändring.
+Att klicka igenom appen manuellt fungerar när den är liten, men ju större projektet blir desto lättare är det att missa saker. Automatiserade tester körs på sekunder och upptäcker direkt om något som fungerade har gått sönder.
 
 ---
 
