@@ -64,26 +64,6 @@ Placera dina testfiler enligt detta mönster:
 
 ---
 
-## 💡 Bra att veta: toBe vs toEqual
-
-- **`toBe`** — jämför med `Object.is` (samma referens). Använd för primitiva värden: strängar, tal, booleans.
-- **`toEqual`** — jämför värden rekursivt (deep equality). Använd för objekt och arrayer.
-
-```ts
-// Primitiva värden — toBe
-expect(formatCurrency(100)).toBe('100.00 kr')
-expect(calculateTotal([])).toBe(0)
-
-// Objekt/arrayer — toEqual
-expect(calculateByCategory(data)).toEqual({
-  salary: 0,
-  food: 450,
-  housing: 8000,
-  // ...
-})
-```
-
----
 
 ## ✅ Del 1 — Enhetstester
 
