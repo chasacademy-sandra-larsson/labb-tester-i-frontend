@@ -1,4 +1,4 @@
-# 💻 Laboration: Testning i React med Vitest och React Testing Library
+# 💻 Laboration: Tester i frontend
 
 ## 🎯 Kursmål
 
