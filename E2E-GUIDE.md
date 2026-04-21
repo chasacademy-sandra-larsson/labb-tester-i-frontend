@@ -45,6 +45,23 @@ npx cypress open
 
 Första gången öppnas en guide där du väljer "E2E Testing" och en webbläsare.
 
+### TypeScript-stöd
+
+Skapa `cypress/tsconfig.json` så att TypeScript känner igen `cy`, `describe`, `it` etc:
+
+```json
+{
+  "compilerOptions": {
+    "target": "es2023",
+    "lib": ["es2023", "dom"],
+    "types": ["cypress"]
+  },
+  "include": ["**/*.ts"]
+}
+```
+
+Utan denna fil blir allt rödmarkerat i editorn.
+
 ### Filstruktur
 
 ```
