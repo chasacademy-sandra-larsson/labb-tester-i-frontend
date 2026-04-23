@@ -106,7 +106,7 @@ const testTransactions: Transaction[] = [
     category: 'housing',
     date: '2025-04-01',
   },
-  // Lägg till fler...
+
 ]
 ```
 
