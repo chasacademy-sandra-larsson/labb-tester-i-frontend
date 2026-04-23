@@ -115,8 +115,8 @@ Testa:
 **calculateTotal**
 - Returnerar korrekt balans (inkomster minus utgifter)
 - Returnerar `0` för en tom array
-- Hanterar enbart inkomster (d.v.s summan av alla inkomster i testarrayen)
-- Hanterar enbart utgifter   (d.v.s summan av alla utgifter i testarrayen)
+- Hanterar enbart inkomster
+- Hanterar enbart utgifter   
 
 **calculateTotalByType**
 - Summerar korrekt för `'income'`
