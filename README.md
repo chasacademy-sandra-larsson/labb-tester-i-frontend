@@ -12,10 +12,10 @@ Du ska skriva **enhetstester** och **integrationstester** med Vitest och React T
 
 ## 🚀 Kom igång
 
-### 1. Klona repot och gå till starter-mappen
+### 1. Klona repot
 
 ```bash
-cd starter
+git clone ...
 ```
 
 ### 2. Installera beroenden
